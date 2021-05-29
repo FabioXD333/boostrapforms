@@ -11,41 +11,46 @@
 
     <!--Estilos personalizados-->
     <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/normalize.css">
 
     <title>Bootstrap Forms</title>
   </head>
 
     <body>
 
-      <p>Hello World!</p>
 
-      <div class="container">
+      <div class="container rounded">
+        <div class="flex-container">  
+
+          <hr>
+          <div class="titulo">
+            <p class="text-center">Contact Us</p>  
+          <hr>
+
+        <div class="forms">  
+          <input type="text" class="form-control" id="fname" name="fname" placeholder="First Name">
+        </div>
+
         <div class="forms">
-          
-        <span class="input-group-text" id="basic-addon1">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
-        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"></path>
-        </svg>
-        </span>
-          <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="basic-addon1">
+          <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name">
+        </div>
+
+        <div class="forms">
+          <input type="email" class="form-control" id="email" name="email" placeholder="Email Address">
+        </div>
+
+        <div class="forms">
+          <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone">
+        </div>
+
+        <div class="forms">
+          <textarea name="" class="form-control" id="" cols="20" rows="6" placeholder="Enter your message for us here. We will get back to you within 2 bussiness days. Me parece increíblemente interesante la propiedad placeholder."></textarea>
+          </div>  
+          </div>
+        </div>
       </div>
-        <div class="forms">
-          <input type="text" id="fname" name="fname" placeholder="First Name">
-        </div>
-        <div class="forms">
-          <input type="text" id="lname" name="lname" placeholder="Last Name">
-        </div>
-        <div class="forms">
-          <input type="email" id="email" name="email" placeholder="Email Address">
-        </div>
-        <div class="forms">
-          <input type="tel" id="phone" name="phone" placeholder="Phone">
-        </div>
-        <div class="forms">
-          <textarea name="" id="" cols="20" rows="6" placeholder="Enter your message for us here. We will get back to you within 2 bussiness days. Me parece increíblemente interesante la propiedad placeholder."></textarea>
-        </div>  
-      </div>
+
+      <br>
 
       
 
