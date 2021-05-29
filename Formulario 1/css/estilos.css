@@ -1,0 +1,11 @@
+
+.container{
+  padding: 2vh;
+
+}
+.forms{
+  display: flex;
+  flex-direction: row;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
